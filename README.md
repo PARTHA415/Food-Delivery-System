@@ -74,11 +74,6 @@ FoodDeliverySystem/
 │               ├── DeliveryPartnerObserver.java
 │               └── AnalyticsObserver.java
 │
-├── bin/                                     # Compiled classes
-├── build.gradle                             # Gradle build file
-├── settings.gradle                          # Gradle settings
-├── run.bat                                  # Windows run script
-├── run.sh                                   # Linux/Mac run script
 └── README.md                                # This file
 ```
 
@@ -140,40 +135,13 @@ Order lifecycle: `PLACED → CONFIRMED → PREPARING → READY → OUT_FOR_DELIV
 
 ## How to Run
 
-### Using IntelliJ IDEA (Recommended)
-1. Open IntelliJ IDEA
-2. File → Open → Select `FoodDeliverySystem` folder
-3. Choose "Open as Project" when prompted for `build.gradle`
-4. Wait for Gradle sync
-5. Navigate to `src/com/fooddelivery/Main.java`
-6. Right-click → Run 'Main.main()'
-
 ### Using Command Line
-
-**Windows:**
-```cmd
-cd FoodDeliverySystem
-run.bat
-```
-
-Or manually:
+manually:
 ```cmd
 cd src
 javac -encoding UTF-8 -d ..\bin com\fooddelivery\*.java com\fooddelivery\abstractfactory\*.java com\fooddelivery\composite\*.java com\fooddelivery\strategy\*.java com\fooddelivery\decorator\*.java com\fooddelivery\adapter\*.java com\fooddelivery\observer\*.java
 cd ..
 java -cp bin com.fooddelivery.Main
-```
-
-**Linux/Mac:**
-```bash
-cd FoodDeliverySystem
-chmod +x run.sh
-./run.sh
-```
-
-### Using Gradle
-```bash
-./gradlew run
 ```
 
 ## Sample Output
