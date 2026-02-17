@@ -4,7 +4,7 @@ A comprehensive Java project demonstrating 6 different design patterns using an 
 
 ## Project Overview
 
-**Food Delivery System** is an educational project that showcases industry-standard design patterns applied to a real-world food delivery platform similar to Swiggy/Zomato/UberEats. The project demonstrates how each pattern solves specific design problems.
+**Food Delivery System** is an educational project that showcases industry-standard design patterns applied to a real-world food ordering and delivery platform. The project demonstrates how each pattern solves specific design problems.
 
 ## Design Patterns Implemented
 
